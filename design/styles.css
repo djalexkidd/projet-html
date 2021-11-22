@@ -55,3 +55,18 @@ h1 {
 .line {
     border-bottom: 2px solid #f7aab3;
 }
+
+.welcome {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px;
+}
+
+main p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 5px;
+}
