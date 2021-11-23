@@ -62,11 +62,43 @@ h1 {
     justify-content: center;
     font-weight: 600;
     font-size: 20px;
-    margin: 20px;
+    margin: 20px 40px;
 }
 
 main p {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 5px;
+}
+
+main img {
+    border-radius: 5%;
+    float: left;
+    width:  300%;
+    height: 200%;
+    object-fit: cover;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f7aab3;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer p {
+    padding-bottom: 10px;
+}
+
+.section-img
+ {
+  display: grid;
+  grid-template-columns: repeat(3,150px);  /* 3 columns */
+  grid-template-rows: repeat(2,150px); /* 3 rows  */
+  grid-gap:100% 25%; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+  padding-left: 7%;
 }
