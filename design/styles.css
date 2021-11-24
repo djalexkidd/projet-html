@@ -72,14 +72,17 @@ main p {
 }
 
 footer {
-    position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
     background-color: #f16c79;
     color: white;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
+    height: 55px;
+}
+
+.card {
+    border-radius: 100% !important;
 }
 
 .card-body {
