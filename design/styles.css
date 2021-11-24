@@ -109,12 +109,12 @@ li {
 .border-contact {
     display: flex;
     border: solid;
-    width: 80%;
+    width: 95%;
     border-radius: 15px;
     justify-content: center;
     margin: 25px auto;
     color: #f16c79;
-    height: 250px;
+    height: 150px;
     align-items: center;
 }
 
