@@ -53,7 +53,7 @@ h1 {
 }
 
 .line {
-    border-bottom: 2px solid #f7aab3;
+    border-bottom: 2px solid #f16c79;
 }
 
 .welcome {
@@ -71,34 +71,21 @@ main p {
     margin: 5px;
 }
 
-main img {
-    border-radius: 5%;
-    float: left;
-    width:  300%;
-    height: 200%;
-    object-fit: cover;
-}
-
 footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #f7aab3;
+    background-color: #f16c79;
     color: white;
     text-align: center;
     padding-top: 10px;
 }
 
-footer p {
-    padding-bottom: 10px;
+.card-body {
+    background-color: #f16c79;
 }
 
-.section-img
- {
-  display: grid;
-  grid-template-columns: repeat(3,150px);  /* 3 columns */
-  grid-template-rows: repeat(2,150px); /* 3 rows  */
-  grid-gap:100% 25%; /* 50 pixels of space added between rows and 30 pixels added between columns  */
-  padding-left: 7%;
+.card-text {
+    color: white;
 }
