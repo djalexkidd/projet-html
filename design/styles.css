@@ -102,4 +102,6 @@ li {
 .van {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    height: 280px;
+    object-fit: cover;
 }
