@@ -105,3 +105,17 @@ li {
     height: 280px;
     object-fit: cover;
 }
+
+.border-contact {
+    display: flex;
+    border: solid;
+    width: 80%;
+    border-radius: 15px;
+    justify-content: center;
+    margin: 25px auto;
+    color: #f16c79;
+}
+
+.border-contact p {
+    color: #000;
+}
