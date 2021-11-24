@@ -25,6 +25,10 @@ h1 {
     margin: 10px;
 }
 
+.titres h1, h2, img {
+    padding-top: 5px;
+}
+
 .logo {
     display: flex;
     margin: 0 auto
