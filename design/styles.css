@@ -9,6 +9,9 @@
     src : url('../fonts/theblacklist.ttf') format('truetype');
 }
 
+/* [HEADER] */
+
+/* EN-TÊTE DÉGRADÉ */
 header {
     display: flex;
     justify-content: center;
@@ -17,6 +20,7 @@ header {
     color: white;
 }
 
+/* TITRE SURF VAN */
 h1 {
     font-family: "theblacklist", sans-serif;
     display: flex;
@@ -25,21 +29,26 @@ h1 {
     margin: 10px;
 }
 
+/* ESPACEMENT ENTRE LE LOGO ET LES TITRES */
 .titres h1, h2, img {
     padding-top: 5px;
 }
 
+/* LOGO DANS L'EN-TÊTE */
 .logo {
     display: flex;
     margin: 0 auto
 }
 
+/* TITRE "VANS ET FOURGONS AMÉNAGÉS" */
 .sous-titre {
     font-size: 24px;
     font-family: Arial, sans-serif;
     font-weight: 600;
     margin-top: 10%;
 }
+
+/* [BARRE DE NAVIGATION] */
 
 .section-flex ul{
     font-family: Arial, sans-serif;
@@ -51,11 +60,13 @@ h1 {
     justify-content: center;
 }
 
+/* ESPACEMENT ENTRE LES BOUTONS */
 .section-flex li {
     display: flex;
     margin: auto 10px;
 }
 
+/* LIGNE EN DESSOUS DE LA NAVBAR */
 .line {
     border-bottom: 2px solid #f16c79;
 }
@@ -69,41 +80,35 @@ h1 {
     margin: 20px 40px;
 }
 
+/* LOREM IPSUM */
 main p {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 5px;
 }
 
-footer {
-    bottom: 0;
-    width: 100%;
-    background-color: #f16c79;
-    color: white;
-    text-align: center;
-    padding-top: 15px;
-    height: 55px;
+/* DÉSACTIVE LE SOULIGNEMENT DES BOUTONS */
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* CHANGE LE POINTEUR QUAND UN BOUTON EST SURVOLÉ */
+li {
+    cursor: pointer;
+}
+
+/* [GALERIE] */
+
+.album {
+    padding: 5%;
 }
 
 .card {
     border-radius: 100% !important;
 }
 
-.card-body {
-    background-color: #f16c79;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    box-shadow: 0 2px 8px #898989;
-}
-
-.card-text {
-    color: white;
-}
-
-li {
-    cursor: pointer;
-}
-
+/* IMAGE DU VAN */
 .van {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -111,6 +116,22 @@ li {
     object-fit: cover;
 }
 
+/* FOND DE LA CARTE "MODÈLE VAN" */
+.card-body {
+    background-color: #f16c79;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 2px 8px #898989;
+}
+
+/* COULEUR DU TEXTE "MODÈLE VAN" */
+.card-text {
+    color: white;
+}
+
+/* [SECTION CONTACT] */
+
+/* STYLE DE LA BORDURE */
 .border-contact {
     display: flex;
     border: solid;
@@ -123,15 +144,18 @@ li {
     align-items: center;
 }
 
+/* TEXTE EN NOIR DANS L'ENCADRÉ */
 .border-contact p {
     color: #000;
 }
 
-.album {
-    padding: 5%;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #000;
+/* BAS DE PAGE */
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #f16c79;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    height: 55px;
 }
